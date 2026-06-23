@@ -22,7 +22,7 @@ Without the adapter, the encoder focuses on semantic content and misses subtle m
 
 ### 🔑 Key Insights of the Overall Architecture 🔑
 - _**Dual-Encoder Residual Prompting for Forgery-Specific Cue**_:
-Rather than directly fine-tuning SAM as a generic segmentation backbone, SARIF compares a LoRA-adapted SAM encoder with its frozen counterpart. The residual discrepancy between the two branches is extracted at selected global-attention blocks and the final embedding through FSIE, allowing the model to isolate adapter-learned manipulation cues while preserving SAM’s broad visual generalization.
+SARIF employs two SAM encoders; a frozen SAM encoder and a fine-tuned SAM encoder. The frozen encoder preserves SAM’s broad semantic and structural knowledge, while the LoRA-adapted encoder shifts toward manipulation-sensitive patterns. By comparing these two representations, SARIF converts the domain gap into forgery-aware cues and uses them as task-specific prompts.
 
 - _**Feedback-Guided Prompt-Mask Refinement**_:
 SARIF fully exploits SAM’s promptable decoder by converting each previous mask prediction into a mask prompt and fusing it with forgery-specific residual cues. This prompt-mask feedback loop progressively refines the segmentation result, sharpening boundaries, suppressing spurious regions, and accumulating forensic evidence across refinement stages without requiring manual points, boxes, or masks.
