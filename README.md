@@ -14,7 +14,7 @@ Image forgery localization remains challenging due to diverse manipulation techn
 
 ## 🔑 Key Motivation 🔑
 <p align="center">
-  <img width="50%" alt="Motivation" src="https://github.com/user-attachments/assets/5234e648-8a34-400d-9a6f-71213413cb26" />
+  <img width="40%" alt="Motivation" src="https://github.com/user-attachments/assets/5234e648-8a34-400d-9a6f-71213413cb26" />
 </p>
 
 Without the adapter, the encoder focuses on semantic content and misses subtle manipulation artifacts, causing imprecise masks. With the adapter, it learns forgery-specific cues that guide the decoder to produce sharper and more accurate localization. Concretely, this domain gap between the adapted and the frozen encoder represents the adapter-learned forgery-specific information.
