@@ -22,10 +22,12 @@ Without the adapter, the encoder focuses on semantic content and misses subtle m
 _**SARIF exploits the discrepancy between the frozen SAM representation and the LoRA-adapted representation as a forgery-specific prompt, allowing the decoder to focus on manipulation-aware evidence rather than generic semantic cues.**_
 
 ## Overall Architecture of SARIF
+
 <img width="2418" height="1594" alt="model" src="https://github.com/user-attachments/assets/73adf6cd-53ad-4343-88e3-1af7948030c6" />
+
 The overall architecture of the proposed SARIF. (a) Fine-tuned SAM Image Encoder. (b) Original SAM Image Encoder. (c) Feedback-Guided Mask Decoder. (d) Forgery-Specific Information Extractor. (e) Notation description used in this paper.
 
-### 🔑 Key Insights of the Overall Architecture 🔑
+## 🔑 Key Insights of the Overall Architecture 🔑
 - _**Dual-Encoder Residuals for Extracting Forgery-Specific Cues**_:
 SARIF employs two SAM encoders: a frozen SAM encoder and a fine-tuned SAM encoder. The frozen encoder preserves SAM’s broad semantic and structural knowledge, while the LoRA-adapted encoder shifts toward manipulation-sensitive patterns. By comparing these two representations, SARIF extracts forgery-specific information from the 5th, 11th, 17th, and 23rd SAM global-attention blocks and the final image embedding. This information is fused with the previous mask prompt to form a task-specific prompt, enabling the mask decoder to refine the predicted mask and produce sharper forgery localization.
 
