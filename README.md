@@ -42,5 +42,16 @@ By combining parameter-efficient SAM adaptation, hierarchical residual cue extra
 ## Experiment Results
 
 ### Segmentation results on CASIAv2 training scheme
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img width="100%" alt="image" src="https://github.com/user-attachments/assets/0b1f924e-7b26-4a8f-a54c-a4ce4b1abf12" />
+    </td>
+    <td width="50%" align="center">
+      <img width="100%" alt="image" src="https://github.com/user-attachments/assets/d55ca124-2c6f-4527-9131-1d658cc8726d" />
+    </td>
+  </tr>
+</table>
+
 
 ### Ablation study
