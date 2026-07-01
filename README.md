@@ -18,6 +18,8 @@ Image forgery localization remains challenging due to diverse manipulation techn
 
 Without the adapter, the encoder focuses on semantic content and misses subtle manipulation artifacts, causing imprecise masks. With the adapter, it learns forgery-specific cues that guide the decoder to produce sharper and more accurate localization. Concretely, this domain gap between the adapted and the frozen encoder represents the adapter-learned forgery-specific information.
 
+**SARIF exploits the discrepancy between the frozen SAM representation and the LoRA-adapted representation as a forgery-specific prompt, allowing the decoder to focus on manipulation-aware evidence rather than generic semantic cues.**
+
 ## Overall Architecture of SARIF
 
 ### 🔑 Key Insights of the Overall Architecture 🔑
