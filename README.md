@@ -23,7 +23,9 @@ _**SARIF exploits the discrepancy between the frozen SAM representation and the 
 
 ## Overall Architecture of SARIF
 
-<img width="2418" height="1594" alt="model" src="https://github.com/user-attachments/assets/73adf6cd-53ad-4343-88e3-1af7948030c6" />
+<p align="center">
+  <img width="66%" alt="model" src="https://github.com/user-attachments/assets/73adf6cd-53ad-4343-88e3-1af7948030c6" />
+</p>
 
 The overall architecture of the proposed SARIF. (a) Fine-tuned SAM Image Encoder. (b) Original SAM Image Encoder. (c) Feedback-Guided Mask Decoder. (d) Forgery-Specific Information Extractor. (e) Notation description used in this paper.
 
