@@ -1,12 +1,15 @@
-> Dong-Hyun Moon<sup>&#42;</sup>, Ju-Hyeon Nam<sup>&#42;</sup>, Sang-Chul Lee<sup>&dagger;</sup>  
-> [![Github](https://img.shields.io/badge/-Github-black?style=flat&logo=github&logoColor=white)](https://github.com/Inha-CVAI/SARIF_ECCV2026)
-> [![Stars](https://img.shields.io/github/stars/Inha-CVAI/SARIF_ECCV2026?style=social)](https://github.com/Inha-CVAI/SARIF_ECCV2026/stargazers)
-> [![arXiv](https://img.shields.io/badge/arXiv-2606.21108-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2606.21108)  
-> <sup>&#42;</sup> Equal contribution.  
-> <sup>&dagger;</sup> Corresponding author.
-
 # SARIF [2026 ECCV]
 The reproduction code of SARIF which is accepted in ECCV 2026 
+
+## 💡 We also have other Image Forgery Localization projects that may interest you ✨
+
+> [**M2SFormer: Multi-Spectral and Multi-Scale Attention with Edge-Aware Difficulty Guidance for Image Forgery Localization
+ [ICCV 2025]**](https://github.com/Inha-CVAI/M2SFormer_ICCV2025)
+> Ju-Hyeon Nam, Dong-Hyun Moon, Sang-Chul Lee<sup>&dagger;</sup>  
+> [![Github](https://img.shields.io/badge/-Github-black?style=flat&logo=github&logoColor=white)](https://github.com/Inha-CVAI/M2SFormer_ICCV2025)
+> [![Stars](https://img.shields.io/github/stars/Inha-CVAI/SARIF_ECCV2026?style=social)](https://github.com/Inha-CVAI/M2SFormer_ICCV2025/stargazers)
+> [![arXiv](https://img.shields.io/badge/arXiv-2606.21108-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2506.20922)  
+> <sup>&dagger;</sup> Corresponding author.
 
 ## 🔔 Latest News
 - [2026-06-22]: We uploaded SARIF Official Code!
