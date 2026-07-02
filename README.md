@@ -1,5 +1,12 @@
+> Dong-Hyun Moon<sup>&#42;</sup>, Ju-Hyeon Nam<sup>&#42;</sup>, Sang-Chul Lee<sup>&dagger;</sup>  
+> [![Github](https://img.shields.io/badge/-Github-black?style=flat&logo=github&logoColor=white)](https://github.com/Inha-CVAI/SARIF_ECCV2026)
+> [![Stars](https://img.shields.io/github/stars/Inha-CVAI/SARIF_ECCV2026?style=social)](https://github.com/Inha-CVAI/SARIF_ECCV2026/stargazers)
+> [![arXiv](https://img.shields.io/badge/arXiv-2606.21108-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2606.21108)  
+> <sup>&#42;</sup> Equal contribution.  
+> <sup>&dagger;</sup> Corresponding author.
+
 # SARIF [2026 ECCV]
-The reproduction code of SARIF which is accepted in ECCV 2026 !
+The reproduction code of SARIF which is accepted in ECCV 2026 
 
 ## 🔔 Latest News
 - [2026-06-22]: We uploaded SARIF Official Code!
