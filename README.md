@@ -3,12 +3,12 @@ The reproduction code of SARIF which is accepted in ECCV 2026
 
 ## 💡 We also have other Image Forgery Localization projects that may interest you ✨
 
-> [**M2SFormer: Multi-Spectral and Multi-Scale Attention with Edge-Aware Difficulty Guidance for Image Forgery Localization
- [ICCV 2025]**](https://github.com/Inha-CVAI/M2SFormer_ICCV2025)
+> [**M2SFormer: Multi-Spectral and Multi-Scale Attention with Edge-Aware Difficulty Guidance for Image Forgery Localization [ICCV 2025]**](https://github.com/Inha-CVAI/M2SFormer_ICCV2025)
 > Ju-Hyeon Nam, Dong-Hyun Moon, Sang-Chul Lee<sup>&dagger;</sup>  
 > [![Github](https://img.shields.io/badge/-Github-black?style=flat&logo=github&logoColor=white)](https://github.com/Inha-CVAI/M2SFormer_ICCV2025)
-> [![Stars](https://img.shields.io/github/stars/Inha-CVAI/SARIF_ECCV2026?style=social)](https://github.com/Inha-CVAI/M2SFormer_ICCV2025/stargazers)
-> [![arXiv](https://img.shields.io/badge/arXiv-2606.21108-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2506.20922)  
+> [![Highlight](https://img.shields.io/badge/ICCV2025-Highlight_(Top_2.3%25)-red)](#)
+> [![Stars](https://img.shields.io/github/stars/Inha-CVAI/M2SFormer_ICCV2025?style=social)](https://github.com/Inha-CVAI/M2SFormer_ICCV2025/stargazers)
+> [![arXiv](https://img.shields.io/badge/arXiv-2506.20922-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2506.20922)  
 > <sup>&dagger;</sup> Corresponding author.
 
 ## 🔔 Latest News
